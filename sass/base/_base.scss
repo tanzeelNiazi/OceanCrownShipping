@@ -9,3 +9,17 @@
 html {
   font-size: 62.5%;
 }
+
+#root {
+  max-width: 120rem;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: $color__gray;
+}

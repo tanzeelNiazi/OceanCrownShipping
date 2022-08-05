@@ -6,7 +6,7 @@ This is a **README** file of [Ocean Crown Shipping](https://www.behance.net/gall
 
 - Desktop only.
 
-### Website Demo: [http://www.tanzeel.website](http://www.tanzeel.website)
+### Website Demo: [https://tanzeelniazi.github.io/OceanCrownShipping/](https://tanzeelniazi.github.io/OceanCrownShipping/)
 
 # Additional Information
 
@@ -42,3 +42,4 @@ Visit [www.tanzeel.website](http://www.tanzeel.website) or contact me on tanzeel
 Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/55104587/Ocean-Crown/modules/324961615)
+- [Cargo Containers](https://unsplash.com/photos/hP4ZiN1_kdk)
