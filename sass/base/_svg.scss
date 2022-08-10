@@ -1,0 +1,15 @@
+.svg-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: $color__gray;
+}
+
+.svg-feature {
+  width: 6.4rem;
+  height: 6.4rem;
+  fill: $color__gray;
+}
+
+.feature:hover .svg-feature {
+  fill: #fff;
+}

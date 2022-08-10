@@ -3,6 +3,10 @@
 @import "./base/base";
 @import "./base/typography";
 @import "./base/grid";
+@import "./base/svg";
 
 @import "./components/header";
 @import "./components/cta";
+@import "./components/feature";
+
+@import "./pages/home";

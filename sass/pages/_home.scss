@@ -1,0 +1,18 @@
+.section-features {
+  max-width: 95%;
+  min-height: 20rem;
+  margin: -$unit__gigantic auto 0 auto;
+  background: $color__light;
+  box-shadow: 0 10px 10px rgba(68, 68, 68, 0.25);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: $unit__gigantic;
+}
+
+.features {
+  gap: $unit__normal;
+  align-self: stretch;
+}
