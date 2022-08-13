@@ -248,6 +248,148 @@ body {
   color: #fff;
 }
 
+.location {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+.location__title {
+  font-size: 4.8rem;
+  text-transform: capitalize;
+  color: #0078ff;
+  text-shadow: 0 2px 4px rgba(68, 68, 68, 0.25);
+}
+.location::after {
+  display: block;
+  content: "";
+  width: 80%;
+  height: 4%;
+  background: #cbd7e3;
+  position: absolute;
+  left: 10%;
+  bottom: 6%;
+  z-index: -1;
+}
+
+.dots {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12.8rem;
+  text-align: center;
+}
+
+.dot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.dot__title {
+  color: #cbd7e3;
+}
+.dot__shape {
+  position: relative;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background: #cbd7e3;
+  border-radius: 50%;
+}
+.dot__shape::after {
+  display: block;
+  content: "";
+  width: 50%;
+  height: 50%;
+  background: #aabed1;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.current .dot__title {
+  color: #0078ff;
+}
+.current .dot__shape {
+  background: #fff;
+  box-shadow: 0 3px 5px rgba(68, 68, 68, 0.5);
+}
+.current .dot__shape::after {
+  background: #0078ff;
+}
+
+.visuals {
+  margin: 6.4rem auto;
+}
+
+.choose-us-images {
+  position: relative;
+  justify-self: center;
+  width: 50rem;
+  z-index: 0;
+}
+
+.choose-us-image {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px 5px rgba(0, 120, 255, 0.25);
+}
+.choose-us-image:hover {
+  box-shadow: 4px 8px 14px 10px rgba(0, 120, 255, 0.25);
+}
+
+.image-03 {
+  transform: translate(10rem, 6rem);
+  z-index: 3;
+  transition: all 0.3s;
+}
+.image-03:hover {
+  transform: scale(1.07) translate(8rem, 4rem);
+}
+
+.image-02 {
+  transform: translate(4rem, 2rem);
+  z-index: 2;
+  transition: all 0.3s;
+}
+.image-02:hover {
+  transform: scale(1.07) translate(4rem, 2rem);
+  z-index: 5;
+}
+
+.image-01 {
+  transform: translate(-2rem, 5rem);
+  z-index: 1;
+  transition: all 0.3s;
+}
+.image-01:hover {
+  transform: scale(1.07) translate(-2rem, 2rem);
+  z-index: 5;
+}
+
+.description {
+  margin: 6.4rem auto;
+  justify-self: center;
+  width: 75%;
+  line-height: 1.8;
+}
+.description p {
+  margin: 1.6rem auto;
+}
+
 .section-features {
   max-width: 95%;
   min-height: 20rem;
@@ -264,6 +406,11 @@ body {
 .features {
   gap: 1.6rem;
   align-self: stretch;
+}
+
+.section-why-choose-us {
+  max-width: 100%;
+  min-height: 70rem;
 }
 
 /*# sourceMappingURL=main.css.map */

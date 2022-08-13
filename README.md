@@ -43,3 +43,6 @@ Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/55104587/Ocean-Crown/modules/324961615)
 - [Cargo Containers](https://unsplash.com/photos/hP4ZiN1_kdk)
+- [Women in Hijab](https://www.pexels.com/photo/women-in-hijab-having-a-picnic-on-the-beach-8995825/)
+- [Mosque with Dome](https://www.pexels.com/photo/mosque-with-dome-and-minaret-9884692/)
+- [Kiyosu Castle](https://www.pexels.com/photo/clouds-above-kiyosu-castle-in-japan-9849047/)
