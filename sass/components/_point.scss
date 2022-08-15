@@ -1,0 +1,44 @@
+.point {
+  position: relative;
+
+  &__desc {
+    margin-top: $unit__large;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    line-height: 1.6;
+  }
+
+  &__body {
+    line-height: 1.6;
+    font-size: $unit__normal * 0.95;
+  }
+}
+
+.point-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url("../assets/logo-bg.png");
+  background-size: cover;
+  opacity: 0.15;
+  width: 40%;
+  height: 40%;
+}
+
+.point:nth-child(1) {
+  font-size: $unit__medium;
+  text-transform: capitalize;
+}
+
+.point:not(:nth-child(1)) {
+  border: 2px solid rgba($color__secondary, 0.25);
+  color: rgba($color__gray, 0.5);
+  padding: $unit__normal;
+}
+
+.point:nth-child(2) {
+  border: 2px solid #fff;
+  color: #fff;
+}

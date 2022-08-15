@@ -13,3 +13,25 @@
 .feature:hover .svg-feature {
   fill: #fff;
 }
+
+.svg-arrow-circle {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: $unit__normal auto;
+  fill: $color__secondary;
+}
+
+.svg-point {
+  position: absolute;
+  top: -70px;
+  left: 20px;
+  width: 12.8rem;
+  height: 12.8rem;
+  fill: #fff;
+  padding: 1.6rem;
+  background: darken($color__secondary, 40%);
+}
+
+.point:not(:nth-child(2)) .svg-point {
+  fill: rgba(255, 255, 255, 0.25);
+}

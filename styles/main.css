@@ -67,6 +67,28 @@ body {
   fill: #fff;
 }
 
+.svg-arrow-circle {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 1.6rem auto;
+  fill: #0078ff;
+}
+
+.svg-point {
+  position: absolute;
+  top: -70px;
+  left: 20px;
+  width: 12.8rem;
+  height: 12.8rem;
+  fill: #fff;
+  padding: 1.6rem;
+  background: #001833;
+}
+
+.point:not(:nth-child(2)) .svg-point {
+  fill: rgba(255, 255, 255, 0.25);
+}
+
 .site-header {
   color: #fff;
   width: 100%;
@@ -390,6 +412,105 @@ body {
   margin: 1.6rem auto;
 }
 
+.who-are-we {
+  width: 90%;
+  margin: auto;
+}
+
+.image-wrapper {
+  width: 30rem;
+}
+.image-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ceo-message {
+  padding: 0 2.4rem;
+}
+.ceo-message__title {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  color: #0060cc;
+  text-shadow: 0 2px 4px rgba(68, 68, 68, 0.15);
+}
+.ceo-message__body {
+  font-size: 1.52rem;
+  line-height: 1.6;
+}
+.ceo-message__name {
+  margin: 1.6rem auto;
+}
+.ceo-message__name span:nth-child(1) {
+  display: block;
+  text-transform: uppercase;
+  color: #0060cc;
+  font-weight: 700;
+}
+
+.who,
+.logistics {
+  width: 85%;
+}
+
+.who__title,
+.logistics__title {
+  display: block;
+  margin: 0.8rem auto;
+  text-transform: uppercase;
+  color: #0060cc;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.who__body,
+.logistics__body {
+  font-size: 1.52rem;
+  line-height: 1.6;
+}
+
+.point {
+  position: relative;
+}
+.point__desc {
+  margin-top: 4.8rem;
+}
+.point__title {
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+.point__body {
+  line-height: 1.6;
+  font-size: 1.52rem;
+}
+
+.point-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url("../assets/logo-bg.png");
+  background-size: cover;
+  opacity: 0.15;
+  width: 40%;
+  height: 40%;
+}
+
+.point:nth-child(1) {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+}
+
+.point:not(:nth-child(1)) {
+  border: 2px solid rgba(0, 120, 255, 0.25);
+  color: rgba(203, 215, 227, 0.5);
+  padding: 1.6rem;
+}
+
+.point:nth-child(2) {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 .section-features {
   max-width: 95%;
   min-height: 20rem;
@@ -411,6 +532,33 @@ body {
 .section-why-choose-us {
   max-width: 100%;
   min-height: 70rem;
+}
+
+.section-who-are-we {
+  width: 100%;
+  height: 50rem;
+  background: rgba(203, 215, 227, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-points {
+  position: relative;
+  width: 100%;
+  height: 80rem;
+  color: #fff;
+  background: #001833;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.points {
+  width: 85%;
+  margin: auto;
+  row-gap: 12.8rem;
+  column-gap: 4.8rem;
 }
 
 /*# sourceMappingURL=main.css.map */

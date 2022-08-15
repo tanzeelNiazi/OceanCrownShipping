@@ -1,0 +1,61 @@
+.who-are-we {
+  width: 90%;
+  margin: auto;
+}
+
+.image-wrapper {
+  width: 30rem;
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.ceo-message {
+  padding: 0 $unit__submedium;
+
+  &__title {
+    font-size: $unit__medium;
+    margin-bottom: $unit__submedium;
+    color: darken($color__secondary, 10%);
+    text-shadow: 0 2px 4px rgba(68, 68, 68, 0.15);
+  }
+
+  &__body {
+    font-size: $unit__normal * 0.95;
+    line-height: 1.6;
+  }
+
+  &__name {
+    margin: $unit__normal auto;
+
+    span:nth-child(1) {
+      display: block;
+      text-transform: uppercase;
+      color: darken($color__secondary, 10%);
+      font-weight: 700;
+    }
+  }
+}
+
+.who,
+.logistics {
+  width: 85%;
+}
+
+.who__title,
+.logistics__title {
+  display: block;
+  margin: $unit__small auto;
+  text-transform: uppercase;
+  color: darken($color__secondary, 10%);
+  font-weight: 700;
+  font-size: $unit__normal;
+}
+
+.who__body,
+.logistics__body {
+  font-size: $unit__normal * 0.95;
+  line-height: 1.6;
+}
