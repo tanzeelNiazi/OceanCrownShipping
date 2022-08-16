@@ -1,0 +1,16 @@
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__normal;
+
+  &__number {
+    color: darken($color__secondary, 10%);
+    font-size: $unit__large;
+  }
+
+  &__desc {
+    width: 35%;
+    font-weight: 300;
+  }
+}

@@ -48,3 +48,11 @@
   row-gap: $unit__gigantic;
   column-gap: $unit__large;
 }
+
+.section-reach {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

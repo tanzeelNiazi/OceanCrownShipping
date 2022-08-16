@@ -47,6 +47,10 @@ body {
   grid: 1fr/repeat(5, 1fr);
 }
 
+.grid__6-cols {
+  grid: 1fr/repeat(6, 1fr);
+}
+
 .grid__12-cols {
   grid: 1fr/repeat(12, 1fr);
 }
@@ -87,6 +91,12 @@ body {
 
 .point:not(:nth-child(2)) .svg-point {
   fill: rgba(255, 255, 255, 0.25);
+}
+
+.svg-footer {
+  width: 3.6rem;
+  height: 3.6rem;
+  fill: #fff;
 }
 
 .site-header {
@@ -511,6 +521,112 @@ body {
   color: #fff;
 }
 
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.stat__number {
+  color: #0060cc;
+  font-size: 4.8rem;
+}
+.stat__desc {
+  width: 35%;
+  font-weight: 300;
+}
+
+.section-footer {
+  position: relative;
+  background: #07254f;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  gap: 3.2rem;
+}
+.footer .info {
+  grid-column: 1/span 2;
+  color: #fff;
+}
+.footer .info p {
+  margin: 1.6rem auto;
+}
+.footer .info .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.footer .subscribe {
+  grid-column: 5/span 2;
+}
+
+.logo__wrapper {
+  width: 250px;
+}
+.logo__wrapper .logo {
+  width: 100%;
+}
+
+.column {
+  color: #fff;
+}
+.column__title {
+  color: #fff;
+  margin-bottom: 1.6rem;
+  text-transform: capitalize;
+}
+.column__navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.navigation__link:link, .navigation__link:visited {
+  color: #fff;
+}
+.navigation__link:hover, .navigation__link:active {
+  text-decoration: underline;
+}
+
+.subscribe p {
+  font-size: 1.44rem;
+  margin: 1.6rem auto;
+}
+
+.email-field {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+}
+.email-field input {
+  height: 4rem;
+  width: 50%;
+  border: none;
+  padding-left: 0.8rem;
+}
+.email-field .btn-email {
+  background: #0078ff;
+  cursor: pointer;
+  width: 25%;
+  height: 4rem;
+  border: none;
+  margin-left: -10px;
+  font-weight: 700;
+  color: #fff;
+}
+
 .section-features {
   max-width: 95%;
   min-height: 20rem;
@@ -559,6 +675,14 @@ body {
   margin: auto;
   row-gap: 12.8rem;
   column-gap: 4.8rem;
+}
+
+.section-reach {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
